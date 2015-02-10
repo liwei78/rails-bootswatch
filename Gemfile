@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -43,3 +43,7 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'therubyracer'
+gem 'twitter-bootswatch-rails'
+gem 'twitter-bootswatch-rails-helpers'
+gem 'bootstrap-sass'
