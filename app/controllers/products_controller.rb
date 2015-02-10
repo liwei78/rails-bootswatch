@@ -1,7 +1,5 @@
 class ProductsController < ApplicationController
 
-  layout "cerulean"
-
   before_action :set_product, only: [:show, :edit, :update, :destroy]
 
   # GET /products
